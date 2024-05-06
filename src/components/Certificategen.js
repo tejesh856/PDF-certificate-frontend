@@ -30,7 +30,7 @@ export default function Certificategen() {
       };
 
       const response = await fetch(
-        "http://localhost:8000/api/pdfgenerate",
+        "https://pdf-certificate-backend.vercel.app/api/pdfgenerate",
         requestOptions
       );
 
